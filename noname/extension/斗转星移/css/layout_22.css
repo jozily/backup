@@ -1,0 +1,84 @@
+/*2v2*/
+#window>#arena[data-number='4'][data-layout-twotwo='previous']>.player[data-position='1'] {
+  left: auto;
+  top: 20px;
+  right: 250px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='previous']>.player[data-position='2'] {
+  left: auto;
+  top: 20px;
+  right: 400px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='next']>.player[data-position='1'] {
+  left: auto;
+  bottom: 210px;
+  top: auto;
+  right: 20px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='next']>.player[data-position='2'] {
+  left: 210px;
+  top: 30px;
+  right: auto;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='next']>.player[data-position='1'] .card_tips_bg {
+  left: -60px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='next']>.player[data-position='2'] .card_tips_bg {
+  left: 112px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='next']>.player[data-position='3'] .card_tips_bg {
+  left: 112px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='previous']>.player[data-position='1'] .card_tips_bg {
+  left: 112px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='previous']>.player[data-position='2'] .card_tips_bg {
+  left: -60px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='previous']>.player[data-position='3'] .card_tips_bg {
+  left: 112px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='opposite']>.player[data-position='1'] .card_tips_bg {
+  left: -60px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='opposite']>.player[data-position='2'] .card_tips_bg {
+  left: 112px;
+}
+
+#window>#arena[data-number='4'][data-layout-twotwo='opposite']>.player[data-position='3'] .card_tips_bg {
+  left: 112px;
+}
+
+/* 斗地主 */
+#window>#arena[data-number="3"][data-layout-doudizhu='nong2']>.player[data-position="1"] {
+  top: auto;
+  bottom: 45%;
+  left: auto;
+  right: 25px;
+}
+
+#window>#arena[data-number="3"][data-layout-doudizhu='nong2']>.player[data-position="2"] {
+  left: calc(32.5% - 60px);
+}
+
+#window>#arena[data-number="3"][data-layout-doudizhu='nong3']>.player[data-position="1"] {
+  left: auto;
+  right: calc(32.5% - 60px);
+}
+
+#window>#arena[data-number="3"][data-layout-doudizhu='nong3']>.player[data-position="2"] {
+  top: auto;
+  bottom: 45%;
+  left: 90px;
+}
