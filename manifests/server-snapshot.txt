@@ -1,0 +1,1 @@
+server snapshot: /docker/新月杀-backup/server-snapshot.tar.gz; sha256 3716f57c9e47889266136feab48aa5fc71af817000dad255dd2c403a541a5844
